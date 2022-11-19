@@ -10,7 +10,9 @@ int number3 = int.Parse(ReadLine());
 
 if(number > number2 && number >number3)
     WriteLine($"Число {number} является максимальным.");
-if(number2>number && number2>number3)
+    else if
+  (number2>number && number2>number3)
     WriteLine($"Число {number2} является максимальным");
-else
+      else if
+      (number3>number && number3>number2)
     WriteLine($"Число {number3} является максимальным");
